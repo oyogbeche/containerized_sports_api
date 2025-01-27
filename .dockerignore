@@ -1,0 +1,23 @@
+*.log
+# Ignore Terraform files
+*.tf
+*.tfvars
+*.tfstate
+*.tfstate.backup
+
+# Ignore configuration files
+*.config
+*.json
+
+# Ignore README, LICENSE, and other documentation
+README.md
+LICENSE
+LICENSE.md
+
+# Ignore version control directories
+.git
+.gitignore
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
